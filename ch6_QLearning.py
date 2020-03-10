@@ -7,6 +7,7 @@ class GridWorld():
         self.y=0
     
     def step(self, a):
+        # 0번 액션: 왼쪽, 1번 액션: 위, 2번 액션: 오른쪽, 3번 액션: 아래쪽
         if a==0:
             self.move_left()
         elif a==1:
@@ -16,7 +17,7 @@ class GridWorld():
         elif a==3:
             self.move_down()
 
-        reward = -1
+        reward = -1 # 보상은 항상 -1로 고정
         done = self.is_done()
         return (self.x, self.y), reward, done
 

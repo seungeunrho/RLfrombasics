@@ -7,7 +7,7 @@ class GridWorld():
         self.y=0
     
     def step(self, a):
-          # 0번 액션: 왼쪽, 1번 액션: 위, 2번 액션: 오른쪽, 3번 액션: 아래쪽
+        # 0번 액션: 왼쪽, 1번 액션: 위, 2번 액션: 오른쪽, 3번 액션: 아래쪽
         if a==0:
             self.move_left()
         elif a==1:
