@@ -4,4 +4,4 @@
 
 This repo provides all the codes from the book "RLBook(titles will be changed later)"
 
-The book will be published in April.
+The book will be published in June, 2020.
