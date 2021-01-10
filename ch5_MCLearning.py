@@ -94,7 +94,7 @@ def main():
         for transition in history[::-1]:
             x, y, reward = transition
             data[x][y] = data[x][y] + alpha*(cum_reward-data[x][y])
-            cum_reward = cum_reward + gamma*reward
+            cum_reward = reward + gamma*cum_reward  # 책에 오타가 있어 수정하였습니다
             
     for row in data:
         print(row)
