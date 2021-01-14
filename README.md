@@ -17,7 +17,7 @@ Thankyou :)
 (수정 후) cum_reward = reward + gamma * cum_reward <br>
 Thanks to goodjian7
 
-2. 챕터 2 : 67, 69 페이지 OX 퀴즈 <br>
+2. 챕터 3 : 67, 69 페이지 OX 퀴즈 <br>
 (수정 전) r_t+1 + gamma * r_t+1 + ... <br>
 (수정 후) r_t+2 + gamma * r_t+2 + ... <br>
 Thanks to namdori61
