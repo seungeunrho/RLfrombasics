@@ -10,6 +10,13 @@ This repo provides all the codes from the book "RLfrombasics"
 Hope this book is useful to somebody
 Thankyou :)
 
+# Versions (버전)
+
+GYM 라이브러리 버전 0.26.2 이상 에서 테스트 되었습니다.
+이보다 낮은 버전의 GYM 라이브러리를 사용하신다면 본 코드가 올바르게 동작되지 않을 것입니다!
+
+Please use latest version of the GYM library. 
+
 # Typo(오타)
 
 1. 챕터 5 : ch5_mclearning.py 코드 97라인  <br>
